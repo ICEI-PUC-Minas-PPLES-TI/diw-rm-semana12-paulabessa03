@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html lang="pt-br">
-<head></head>
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portal de Notícias</title>
-    <link rel="" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícia - Notícia em Destaque 1</title>
+    <link rel="" href="public/assets/css/style.css">
     <link rel="" href="public/assets/scripts/app.js">
 </head>
 <body>
@@ -19,57 +20,28 @@
                 <li><a href="#">ENTRETENIMENTO</a></li>
             </ul>
         </nav>
-        <div class="search">
-            <form action="#" method="GET">
-                <input type="text" placeholder="Pesquisar..." class="search-input">
-                <button type="submit" class="search-button">Buscar</button>
-            </form>
-        </div>
     </header>
 
-    <main class="conteudoprincipal">
-        <section class="featured-news">
-            <article class="col-12 col-lg-6 news-article">
-                <img src="https://picsum.photos/800/400" alt="Notícia 1" class="news-image">
-                <h2 class="news-title">NOTICIA PRINCIPAL 1</h2>
-                <p class="news-summary"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo hic dolorem voluptate ex placeat beatae enim porro voluptatem obcaecati necessitatibus, adipisci provident eos excepturi odio tenetur libero? Aperiam, repellat excepturi!</p>
-                <a href="noticia1.html" class="read-more">Leia mais</a>
-            </article>
-            <article class="col-12 col-lg-6 news-article">
-                <img src="https://picsum.photos/id/5/800/400" alt="Notícia 2" class="news-image">
-                <h2 class="news-title">NOTICIA PRINCIPAL 2</h2>
-                <p class="news-summary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam aut enim, culpa, distinctio id vel aperiam nostrum quisquam dolores nulla ipsa facilis incidunt suscipit cupiditate aspernatur voluptates sunt eos!</p>
-                <a href="noticia2.html" class="read-more">Leia mais</a>
-            </article>
-        </section>
 
-        <section class="other-news">
-            <article class="col-12 col-lg-6 news-article">
-                <img src="https://picsum.photos/id/47/800/400" alt="Notícia 3" class="news-image">
-                <h2 class="news-title">Noticia 3</h2>
-                <p class="news-summary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cumque fugit quod aliquam error voluptatum saepe delectus exercitationem veritatis. Quae sit harum id ea, optio temporibus obcaecati aspernatur quo necessitatibus?</p>
-                <a href="noticia3.html" class="read-more">Leia mais</a>
-            </article>
-            <article class="col-12 col-lg-6 news-article">
-                <img src="https://picsum.photos/id/26/800/400" alt="Notícia 4" class="news-image">
-                <h2 class="news-title">Noticia 4</h2>
-                <p class="news-summary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic ad nemo eveniet. Atque magnam autem debitis, quos quo sint ipsum ullam explicabo cumque id incidunt, nihil maiores ipsa labore rerum.</p>
-                <a href="noticia4.html" class="read-more">Leia mais</a>
-            </article>
-        </section>
-    </main>
-
+    <section class="single-news">
+        <article>
+            <img src="https://picsum.photos/id/5/800/400" alt="Imagem Notícia">
+            <h1>NOTICIA PRINCIPAL 2</h1>
+            <p><strong>Autor:</strong> CAUÃ ANTHONY | <strong>Data:</strong> 10/03/2025</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore officiis et fugit itaque dolorem mollitia? Adipisci ducimus minus debitis ipsa placeat vero in cupiditate? Deleniti totam doloribus dolorum mollitia dolorem!
+            Quis, vero est fuga ex quisquam, voluptatibus maiores dolorem praesentium labore ipsum consequuntur, minima assumenda ut voluptatem consectetur? Laudantium sit ut quasi quas quos in dolorum eligendi asperiores quaerat fugit.
+            Corporis possimus beatae perspiciatis? Dolore sed eligendi illum. Perferendis quaerat possimus hic? Ad dolor doloremque qui, commodi enim harum veniam animi nobis non quasi ratione nemo ut quia, error similique?
+            Ad laborum rerum vel quam id vero optio aperiam ipsa neque? Dignissimos vitae aperiam libero quam, accusamus sapiente debitis harum soluta tempore quas optio nemo nostrum? Quidem odio laboriosam quod?
+            Sunt, possimus, ex at sit aspernatur assumenda natus suscipit nesciunt aut impedit ducimus alias earum? Adipisci impedit doloremque error, ducimus incidunt odio repellendus, quasi quas ut omnis ratione cupiditate debitis?
+            Minima incidunt reprehenderit omnis maxime ullam, consectetur doloribus placeat iure modi asperiores sunt aut rem quo blanditiis sapiente tenetur illo perferendis eaque perspiciatis velit! Esse rem officia molestias ratione rerum.</p>
+        </article>
+    </section>
+    
     <footer class="rodape">
-        <div class="footer-info">
-            <p>&copy; 2025 Portal de Notícias</p>
-            <p><a href="#">Sobre nós</a> | <a href="#">Política de Privacidade</a></p>
-        </div>
-        <form action="#" method="POST" class="subscribe-form">
-            <input type="email" placeholder="Digite seu e-mail" class="email-input">
-            <button type="submit" class="subscribe-button">Assine</button>
-        </form>
+        <p>&copy; 2025 Portal de Notícias</p>
+        <p><a href="#">Sobre nós</a> | <a href="#">Política de Privacidade</a></p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
 <style>
@@ -212,7 +184,7 @@ body {
     "index.html", [
       {
         "id": 1,
-        "titulo": "NOTICIA PRINCIPAL 00",
+        "titulo": "NOTICIA PRINCIPAL 1",
         "imagem": "https://picsum.photos/800/400",
         "resumo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo hic dolorem voluptate ex placeat beatae enim porro voluptatem obcaecati necessitatibus, adipisci provident eos excepturi odio tenetur libero? Aperiam, repellat excepturi!",
         "link": "noticia1.html",

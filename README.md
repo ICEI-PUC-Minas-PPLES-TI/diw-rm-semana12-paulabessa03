@@ -4,10 +4,10 @@ Nessa etapa, vamos evoluir o projeto anterior e contemplar um ambiente de desenv
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: PAULA VITORIA BRAGA BESSA
+- Matricula: 1557309
+- Proposta de projeto escolhida: PORTAL DE NOTICIAS
+- Breve descrição sobre seu projeto: MEU PROJETO E UM PORTAL DE NOTICIAS
 
 **Print do teste da API com visualização do JSON**
 
